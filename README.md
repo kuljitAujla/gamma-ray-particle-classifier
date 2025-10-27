@@ -1,4 +1,4 @@
-# 🧠 MAGIC Gamma Telescope – Classification Project
+# MAGIC Gamma Telescope – Classification Project
 
 ### Overview
 This project uses the **MAGIC Gamma Telescope** dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/159/magic+gamma+telescope) to classify high-energy particles detected by a Cherenkov telescope as either **gamma rays (signal)** or **hadrons (background)**.
@@ -7,12 +7,12 @@ The goal was to compare select **scikit-learn models** with a **TensorFlow neura
 
 ---
 
-### 🎯 Objective
+### Objective
 To model a machine learning model capable of accurately identifying gamma events using telescope data, while comparing multiple algorithms to find the most effective approach.
 
 ---
 
-### ⚙️ Methods
+### Methods
 
 1. **Data Preprocessing**
    - Loaded and scaled data using `StandardScaler`
@@ -42,5 +42,5 @@ To model a machine learning model capable of accurately identifying gamma events
 
 ---
 
-✅ **Conclusion:**  
+ **Conclusion:**  
 After testing multiple configurations, the **TensorFlow neural network** achieved the best overall performance, outperforming all other scikit-learn models in both validation accuracy and stability. For more information view the notebook.
